@@ -1,0 +1,46 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local credentials and deployment configuration
+.env
+.env.*
+!.env.example
+*.local.env
+paths.env
+.databrickscfg
+.databricks/
+.aws/
+.ssh/
+*.pem
+*.key
+
+# Training output and downloaded deployment artifacts
+logs
+checkpoints/
+artifacts/
+downloads/
+exports/
+wandb/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.mp4
+
+# Local tools and editor state
+.cache/
+.uv-cache/
+.python/
+pyrightconfig.json
+.idea/
+.DS_Store
+Thumbs.db
